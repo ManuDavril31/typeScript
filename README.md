@@ -37,3 +37,7 @@ tsc --init
 ## Comando + nombrecarpeta+nombrearchivo.js
 
 tsc && node dist/nombrearchivo.js
+
+## Para evitar este error [Ver imagen], se pone false en la configura del tsconfig.json en la propiedad strictPropertyInitialization": false o se le agrega un signo de cierre admiraccion ! [Ver imagen]
+
+https://ibb.co/gF9D3R1

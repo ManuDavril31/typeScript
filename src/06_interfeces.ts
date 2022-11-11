@@ -9,7 +9,7 @@ interface Book {
   id: number;
   title: string;
   author: string;
-  coAuthor?: string; //el signo de interrogación significa que esta la propiedad es opcional
+  coAuthor?: string; //el signo de interrogación significa que la propiedad es opcional
   isLoan?: (id: number) => void; // de tipo función la cual recibe como parametro un number y no retorna nada
 }
 
